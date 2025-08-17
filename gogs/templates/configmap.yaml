@@ -59,7 +59,7 @@ data:
 
     [log]
     MODE      = console, file
-    LEVEL     = Info
+    LEVEL     = {{ .Values.gogsConfig.log.level }}
     ROOT_PATH = /app/gogs/log
 
     [security]

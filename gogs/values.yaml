@@ -20,6 +20,8 @@ env: {}
 # Commonly used values have been templated with Helm, additional values/configuration can be added using 'extras'
 # For more information about these values see: https://github.com/gogs/gogs/blob/main/conf/app.ini
 gogsConfig:
+  log:
+    level: Info
   server:
     externalUrl: "http://gogs.local/"
   database:
